@@ -39,7 +39,7 @@ class leerFichero {
 				System.out.print(letra);
 			}
 		
-		
+			entrada.close();
 		
 		} catch (IOException e) {			
 			e.printStackTrace();
