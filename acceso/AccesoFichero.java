@@ -28,13 +28,13 @@ class leerFichero {
 		try {
 			FileReader entrada=new FileReader("C:\\Users\\Ezequiel\\Desktop\\Programas\\Java\\ejemplo.txt");
 		
-			int c= entrada.read();	//Creo el metodo que va a leer
+			int c= 0;	
 			
 			//Leer dentro del archivo
 			while( c != -1) {
 				//Almacenamos el valor ACII en el INT c que estamos leyendo
 				
-				c= entrada.read();
+				c= entrada.read();//Creo el metodo que va a leer
 				char letra= (char) c;
 				System.out.print(letra);
 			}
